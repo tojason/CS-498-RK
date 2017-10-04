@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Encode+Sans:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli:300" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>MP0</title>
+    </head>
+    
+    <body>
+        <!--        You should use at least one of all the following: image, link, paragraph, heading.-->
+        <div class="container" id="profile">
+            <img src="ProfileImg.png" alt="Profile Picture" onclick="hideContent()">
+            <h1 class="name" onclick="showContent()">Jason Situ</h1>
+            <div class="content" id="mainContent">
+                <h3 class="email">junsitu2@illinois.edu</h3>
+                <a href="https://github.com/tojason" target="_blank">GitHub</a>
+                <p>Senior in Computer Science at University of Illinois at Urbana-Champaign (UIUC). I will continue pursuing my master degree at UIUC.</p>
+                <p>In this summer, I worked for a startups company and building a customer deliverable application.</p>
+            </div>
+
+            <div class="button-group">
+                <button type="button" class="btn btn-1" onclick="changeToRed()">Red</button>
+                <button type="button" class="btn btn-2" onclick="changeToBlue()">Blue</button>
+                <button type="button" class="btn btn-3" onclick="changeToGrey()">Grey</button>
+            </div>
+        </div>
+       
+        <script src="scripts.js"></script>
+    </body>
+</html>
